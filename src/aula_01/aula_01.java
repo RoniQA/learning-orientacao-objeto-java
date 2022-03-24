@@ -11,6 +11,15 @@ public class aula_01 {
         c1.status();
         c1.rabiscar();
 
+        Caneta c2 = new Caneta();
+
+        c2.modelo = "tinteiro";
+        c2.cor = "preto";
+        c2.ponta = 1.0f;
+        c2.tampar();
+        c2.status();
+        c2.rabiscar();
+
     }
 }
 
