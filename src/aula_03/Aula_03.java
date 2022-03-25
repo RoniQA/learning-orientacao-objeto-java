@@ -1,4 +1,4 @@
-package aula_03_metodos_especiais;
+package aula_03;
 
 public class Aula_03 {
     public static void main(String[] args) {
