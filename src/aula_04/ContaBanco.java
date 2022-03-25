@@ -12,7 +12,7 @@ public class ContaBanco {
         System.out.println("---------------------------------");
         System.out.println("Conta: " + this.getNumConta());
         System.out.println("Tipo da conta: " + this.getTipo());
-        System.out.println("Usuáario: " + this.getDono());
+        System.out.println("Usuário: " + this.getDono());
         System.out.println("Saldo: " + this.getSaldo());
         System.out.println("Status: " + this.getStatus());
         System.out.println("---------------------------------");
@@ -30,9 +30,9 @@ public class ContaBanco {
     }
     public void fecharConta(){
         if(this.getSaldo()>0){
-            System.out.println("A conta não pode ser fechada poque ainda tem saldo");
+            System.out.println("A conta não pode ser fechada pois ainda tem saldo");
         }else if (this.getSaldo()<0){
-            System.out.println("A conta não pode ser fechada porque possui débitos");
+            System.out.println("A conta não pode ser fechada pois possui débitos");
         }else {
             this.setStatus(false);
             System.out.println("Conta fechada com sucesso!");
@@ -58,7 +58,7 @@ public class ContaBanco {
 
             }
         else{
-            System.out.println("Ipossível efetuar saque em uma conta fechada!");
+            System.out.println("Impossível efetuar saque em uma conta fechada!");
         }
     }
     public void pagarMensal(){
