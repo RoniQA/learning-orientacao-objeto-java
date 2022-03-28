@@ -1,4 +1,4 @@
-package aula_05;
+package aula_05_encapsulamento;
 
 public interface Controlador {
     public abstract void desligar();

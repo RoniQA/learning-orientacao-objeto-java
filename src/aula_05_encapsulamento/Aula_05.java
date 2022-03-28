@@ -1,4 +1,4 @@
-package aula_05;
+package aula_05_encapsulamento;
 
 public class Aula_05 {
     public static void main(String[] args) {

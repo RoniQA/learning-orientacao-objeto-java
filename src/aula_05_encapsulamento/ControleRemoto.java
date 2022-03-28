@@ -1,4 +1,4 @@
-package aula_05;
+package aula_05_encapsulamento;
 
 public class ControleRemoto implements Controlador{
     // Atributos
