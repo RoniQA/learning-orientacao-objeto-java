@@ -10,12 +10,18 @@ public class Aula_06 {
                             14, 2, 1);
         l[2] = new Lutador("Snapshadow", "EUA", 35, 1.65f, 80.9f,
                             12, 2, 1);
-        l[3] = new Lutador("UFOCobol", "Brasil", 37, 1.70f, 119.3f,
-                            5, 4, 3);
+        l[3] = new Lutador("MickHill", "Brasil", 27, 1.7f, 81.3f,
+                10, 2, 4);
+        l[4] = new Lutador("UFOCobol", "Brasil", 37, 1.70f, 119.3f,
+                5, 4, 3);
         l[5] = new Lutador("Nerdaart", "EUA", 30, 1.81f, 105.7f,
                             12, 2, 4);
 
-        l[2].Status();
+        Luta EFC01 = new Luta();
+        EFC01.marcarLuta(l[2], l[3]);
+        EFC01.lutar();
+
+
     }
 
 }
