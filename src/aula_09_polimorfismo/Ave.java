@@ -1,6 +1,7 @@
 package aula_09_polimorfismo;
 
 public class Ave extends Animal{
+    private String nome;
     private String corPena;
 
     @Override
@@ -27,5 +28,14 @@ public class Ave extends Animal{
 
     public void setCorPena(String corPena) {
         this.corPena = corPena;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+        System.out.println(this.getNome());
     }
 }

@@ -1,6 +1,7 @@
 package aula_09_polimorfismo;
 
 public class Mamifero extends Animal {
+    private String nome;
     private String corPelo;
 
     @Override
@@ -26,4 +27,12 @@ public class Mamifero extends Animal {
         this.corPelo = corPelo;
     }
 
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+        System.out.println(getNome());
+    }
 }
