@@ -1,4 +1,4 @@
-package aula_08_heranca_01;
+package aula_08_heranca;
 
 public class Aluno extends Pessoa{
     private int mat;

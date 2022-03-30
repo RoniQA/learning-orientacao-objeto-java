@@ -1,4 +1,4 @@
-package aula_08_heranca_01;
+package aula_08_heranca;
 
 public class Funcionario extends Pessoa {
     private String setor;

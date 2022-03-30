@@ -1,4 +1,4 @@
-package aula_08_heranca_01;
+package aula_08_heranca;
 
 public class aula_08_pessoas {
     public static void main(String[] args) {
